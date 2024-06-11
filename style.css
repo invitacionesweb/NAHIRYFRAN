@@ -524,12 +524,20 @@ footer img {
     display: grid;
     grid-template-columns:1fr 1fr; 
 }
-/* 
-.f2, .f3, .f4 {
+
+.f5 {
     display: none;
-} */
+}
 .galeria img {
     width: 50vw;
+}
+.galeria1 { 
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr; 
+}
+.galeria1 img {
+    width: 100vw;
 }
 .gift-block {
     flex-direction: column;
